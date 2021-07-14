@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="title">The BlackJack Game</div>
+            </div>
+            <div class="win-or-lose">
+                <!-- <div class="title">You Won</div> -->
+            </div>
+            <div class="game">
+                <div class="left-game">
+                    <div class="game-txt-left">You: 0</div>
+                    <div class="game-hit">
+                        
+                    </div>
+                </div>
+                <div class="right-game">
+                    <div class="game-txt-right">Computer: 0</div>
+                    <div class="game-deal">
+                        <!-- <div class="card-image-deal" style="background-image: url('./assets/Images/3.png');"></div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="game-base">
+                <div class="btn-container">
+                    <div id="btn-hit" class="btn" style="background-color: blue;" onclick="onHit()">
+                        <div>Hit</div>
+                    </div>
+                    <div id="btn-stand" class="btn" style="background-color: yellow;" onclick="onStand()">
+                        <div>Stand</div>
+                    </div>
+                    <div id="btn-deal" class="btn" style="background-color: red;" onclick="onDeal()">
+                        <div>Deal</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
